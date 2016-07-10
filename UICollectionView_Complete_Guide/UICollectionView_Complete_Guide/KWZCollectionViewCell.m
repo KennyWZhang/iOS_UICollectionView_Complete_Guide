@@ -8,10 +8,6 @@
 
 #import "KWZCollectionViewCell.h"
 
-//@interface KWZCollectionViewCell ()
-//
-//@end
-
 @implementation KWZCollectionViewCell
 {
     UIImageView *imageView;

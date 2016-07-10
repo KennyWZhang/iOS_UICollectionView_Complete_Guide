@@ -45,6 +45,7 @@
 		728884911D3232C600BF82C3 /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728884731D3232C600BF82C3 /* 27.jpg */; };
 		728884921D3232C600BF82C3 /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728884741D3232C600BF82C3 /* 28.jpg */; };
 		728884931D3232C600BF82C3 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728884751D3232C600BF82C3 /* 29.jpg */; };
+		728884971D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 728884961D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,8 @@
 		728884731D3232C600BF82C3 /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
 		728884741D3232C600BF82C3 /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
 		728884751D3232C600BF82C3 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		728884951D323CD600BF82C3 /* KWZCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWZCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		728884961D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWZCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				727397F61D1FACAB002F881B /* KWZCollectionHeaderView.m */,
 				728884521D32284A00BF82C3 /* KWZCollectionViewCell.h */,
 				728884531D32284A00BF82C3 /* KWZCollectionViewCell.m */,
+				728884951D323CD600BF82C3 /* KWZCollectionViewFlowLayout.h */,
+				728884961D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m */,
 				727397F21D1FAB51002F881B /* KWZPhotoModel.h */,
 				727397F31D1FAB51002F881B /* KWZPhotoModel.m */,
 				728884551D322D2B00BF82C3 /* KWZSelectionModel.h */,
@@ -291,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				727397E01D1F8319002F881B /* KWZViewController.m in Sources */,
+				728884971D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m in Sources */,
 				727397F41D1FAB51002F881B /* KWZPhotoModel.m in Sources */,
 				727397F71D1FACAB002F881B /* KWZCollectionHeaderView.m in Sources */,
 				727397DD1D1F8319002F881B /* AppDelegate.m in Sources */,

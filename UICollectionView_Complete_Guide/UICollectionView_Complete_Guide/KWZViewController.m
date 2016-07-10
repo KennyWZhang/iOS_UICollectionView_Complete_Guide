@@ -11,6 +11,7 @@
 #import "KWZCollectionViewCell.h"
 #import "KWZPhotoModel.h"
 #import "KWZSelectionModel.h"
+#import "KWZCollectionViewFlowLayout.h"
 
 @interface KWZViewController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -26,9 +27,6 @@
     BOOL isFinished;
 }
 
-//Not technically required, but useful
-#define kMaxItemSize CGSizeMake(200, 200)
-
 //Static identifiers for cells and supplementary views
 static NSString *CellIdentifier = @"CellIdentifier";
 static NSString *HeaderIdentifier = @"HeaderIdentifier";
@@ -37,14 +35,7 @@ static NSString *HeaderIdentifier = @"HeaderIdentifier";
 {
     [super viewDidLoad];
 
-    //Create our view
-    //Create a basic flow layout that will accomodate three columns in portrait
-    UICollectionViewFlowLayout *surveyFlowLayout = [[UICollectionViewFlowLayout alloc] init];
-    surveyFlowLayout.sectionInset = UIEdgeInsetsMake(30.0f, 80.0f, 30.0f, 20.0f);
-    surveyFlowLayout.minimumInteritemSpacing = 20.0f;
-    surveyFlowLayout.minimumLineSpacing = 20.0f;
-    surveyFlowLayout.itemSize = kMaxItemSize;
-    surveyFlowLayout.headerReferenceSize = CGSizeMake(60, 50);
+    KWZCollectionViewFlowLayout *surveyFlowLayout = [[KWZCollectionViewFlowLayout alloc] init];
 
     //Create a new collection view with our flow layout and set ourself as delegate and data source
     UICollectionView *surveyCollectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:surveyFlowLayout];

@@ -23,13 +23,11 @@
         return nil;
     }
     imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
-    imageView.backgroundColor = [UIColor yellowColor];
     [self.contentView addSubview:imageView];
 
     UIView *selectedBackgroundView = [[UIView alloc] initWithFrame:CGRectZero];
     selectedBackgroundView.backgroundColor = [UIColor orangeColor];
     self.selectedBackgroundView = selectedBackgroundView;
-    self.backgroundColor = [UIColor blueColor];
 
     return self;
 }

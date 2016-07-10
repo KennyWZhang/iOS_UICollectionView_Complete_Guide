@@ -131,7 +131,9 @@ static NSString *HeaderIdentifier = @"HeaderIdentifier";
 
 #pragma mark - UICollectionViewDelegateFlowLayout Methods
 
--(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+-(CGSize)collectionView:(UICollectionView *)collectionView
+                 layout:(UICollectionViewLayout *)collectionViewLayout
+ sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     //Provides a different size for each invidual cell
 

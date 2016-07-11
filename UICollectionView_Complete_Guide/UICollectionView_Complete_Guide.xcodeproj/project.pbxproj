@@ -46,6 +46,8 @@
 		728884921D3232C600BF82C3 /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728884741D3232C600BF82C3 /* 28.jpg */; };
 		728884931D3232C600BF82C3 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 728884751D3232C600BF82C3 /* 29.jpg */; };
 		728884971D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 728884961D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m */; };
+		7288849A1D32485A00BF82C3 /* KWZDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 728884991D32485A00BF82C3 /* KWZDecorationView.m */; };
+		7288849C1D33231200BF82C3 /* binder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7288849B1D33231200BF82C3 /* binder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +99,9 @@
 		728884751D3232C600BF82C3 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
 		728884951D323CD600BF82C3 /* KWZCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWZCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		728884961D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWZCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		728884981D32485A00BF82C3 /* KWZDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWZDecorationView.h; sourceTree = "<group>"; };
+		728884991D32485A00BF82C3 /* KWZDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWZDecorationView.m; sourceTree = "<group>"; };
+		7288849B1D33231200BF82C3 /* binder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = binder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +140,8 @@
 				728884531D32284A00BF82C3 /* KWZCollectionViewCell.m */,
 				728884951D323CD600BF82C3 /* KWZCollectionViewFlowLayout.h */,
 				728884961D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m */,
+				728884981D32485A00BF82C3 /* KWZDecorationView.h */,
+				728884991D32485A00BF82C3 /* KWZDecorationView.m */,
 				727397F21D1FAB51002F881B /* KWZPhotoModel.h */,
 				727397F31D1FAB51002F881B /* KWZPhotoModel.m */,
 				728884551D322D2B00BF82C3 /* KWZSelectionModel.h */,
@@ -192,6 +199,7 @@
 				728884731D3232C600BF82C3 /* 27.jpg */,
 				728884741D3232C600BF82C3 /* 28.jpg */,
 				728884751D3232C600BF82C3 /* 29.jpg */,
+				7288849B1D33231200BF82C3 /* binder.png */,
 			);
 			name = Photo;
 			sourceTree = "<group>";
@@ -271,6 +279,7 @@
 				7288848C1D3232C600BF82C3 /* 22.jpg in Resources */,
 				728884891D3232C600BF82C3 /* 19.jpg in Resources */,
 				7288847A1D3232C600BF82C3 /* 4.jpg in Resources */,
+				7288849C1D33231200BF82C3 /* binder.png in Resources */,
 				728884921D3232C600BF82C3 /* 28.jpg in Resources */,
 				728884841D3232C600BF82C3 /* 14.jpg in Resources */,
 				728884771D3232C600BF82C3 /* 1.jpg in Resources */,
@@ -298,6 +307,7 @@
 				727397E01D1F8319002F881B /* KWZViewController.m in Sources */,
 				728884971D323CD600BF82C3 /* KWZCollectionViewFlowLayout.m in Sources */,
 				727397F41D1FAB51002F881B /* KWZPhotoModel.m in Sources */,
+				7288849A1D32485A00BF82C3 /* KWZDecorationView.m in Sources */,
 				727397F71D1FACAB002F881B /* KWZCollectionHeaderView.m in Sources */,
 				727397DD1D1F8319002F881B /* AppDelegate.m in Sources */,
 				728884541D32284A00BF82C3 /* KWZCollectionViewCell.m in Sources */,

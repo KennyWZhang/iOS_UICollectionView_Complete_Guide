@@ -12,6 +12,4 @@
 
 @property (nonatomic, strong) UIImage *image;
 
--(void)setDisabled:(BOOL)disabled;
-
 @end

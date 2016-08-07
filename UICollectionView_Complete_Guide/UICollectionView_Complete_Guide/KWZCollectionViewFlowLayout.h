@@ -7,10 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KWZCollectionViewLayoutAttributes.h"
 
-#define kMaxItemDimension 200.0f
+#define kMaxItemDimension 140
 #define kMaxItemSize CGSizeMake(kMaxItemDimension, kMaxItemDimension)
 
+
+@protocol KWZCollectionViewDelegateFlowLayout <UICollectionViewDelegateFlowLayout>
+
+@optional
+-(KWZCollectionViewFlowLayoutMode)collectionView:(UICollectionView *)collectionView
+                                         layout:(UICollectionViewLayout*)collectionViewLayout
+                   layoutModeForItemAtIndexPath:(NSIndexPath *)indexPath;
+@end
+
 @interface KWZCollectionViewFlowLayout : UICollectionViewFlowLayout
+
+@property (nonatomic, assign) KWZCollectionViewFlowLayoutMode layoutMode;
 
 @end

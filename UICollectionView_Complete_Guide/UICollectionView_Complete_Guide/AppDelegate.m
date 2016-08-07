@@ -18,10 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen.mainScreen bounds]];
 
-    //Simple, single-view application
-    self.window.rootViewController = [[KWZViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc]
+                                                    initWithRootViewController:[KWZViewController new]];
+//    navigationController.navigationBar.barStyle = UIBarStyleBlack;
+
+    self.window.rootViewController = navigationController;
     
     [self.window makeKeyAndVisible];
 

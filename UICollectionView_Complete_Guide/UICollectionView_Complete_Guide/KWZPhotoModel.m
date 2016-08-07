@@ -10,11 +10,10 @@
 
 @implementation KWZPhotoModel
 
-+(instancetype)photoModelWithName:(NSString *)name image:(UIImage *)image
++(instancetype)photoModelWithImage:(UIImage *)image
 {
     KWZPhotoModel *model = [[KWZPhotoModel alloc] init];
 
-    model.name = name;
     model.image = image;
 
     return model;

@@ -13,14 +13,17 @@
 -(id)copyWithZone:(NSZone *)zone
 {
     KWZCollectionViewLayoutAttributes *attributes = [super copyWithZone:zone];
-    attributes.layoutMode = self.layoutMode;
+    attributes.shouldRasterize = self.shouldRasterize;
+    attributes.maskingValue = self.maskingValue;
+
     return attributes;
 }
 
--(BOOL)isEqual:(id)object
+-(BOOL)isEqual:(KWZCollectionViewLayoutAttributes *)other
 {
-    return [super isEqual:object] &&
-    (self.layoutMode == [object layoutMode]);
+    return [super isEqual:other] &&
+    (self.shouldRasterize == other.shouldRasterize &&
+     self.maskingValue == other.maskingValue);
 }
 
 @end

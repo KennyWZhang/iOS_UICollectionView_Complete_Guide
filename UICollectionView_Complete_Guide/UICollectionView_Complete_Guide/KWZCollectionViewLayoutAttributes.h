@@ -8,13 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum : NSUInteger{
-    KWZCollectionViewFlowLayoutModeAspectFit,    //Default
-    KWZCollectionViewFlowLayoutModeAspectFill
-}KWZCollectionViewFlowLayoutMode;
-
 @interface KWZCollectionViewLayoutAttributes : UICollectionViewLayoutAttributes
 
-@property (nonatomic, assign) KWZCollectionViewFlowLayoutMode layoutMode;
+@property (nonatomic, assign) BOOL shouldRasterize;
+@property (nonatomic, assign) CGFloat maskingValue;
 
 @end

@@ -10,9 +10,8 @@
 
 @interface KWZPhotoModel : NSObject
 
-+(instancetype)photoModelWithName:(NSString *)name image:(UIImage *)image;
++(instancetype)photoModelWithImage:(UIImage *)image;
 
-@property (nonatomic, copy) NSString *name;
 @property (nonatomic, strong) UIImage *image;
 
 @end
